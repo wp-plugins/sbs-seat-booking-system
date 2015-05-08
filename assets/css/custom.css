@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 10, 2014, 2:01:48 AM
+    Author     : KauserSarker
+*/
+
+.wrapper
+{
+    width: 800px;
+    margin: auto;
+}
+.float-left
+{
+    float: left;
+}
+.drop_container
+{
+    width: 736px;
+    background-image: url('images/graph_4light.png');
+     position: relative;
+}
+.drag_container
+{
+    width: 200px;
+    margin-left: 20px;  
+}
+.common_height
+{
+    height: 600px;
+}
+.to_drag
+{
+    width: 100px;
+    margin: 10px;
+}
+
+.full_width
+{
+    width: 100%;
+    height: 100%;
+}
+.margin-bottom
+{
+    margin-bottom: 10px;
+}
+.widget_description
+{
+    width: 100%;
+    height: 50px;
+}
+.edit_link_area
+{
+    width: 50px;
+    position: absolute;
+    right: 23px;
+    top:8px;
+}
+.to_drag:hover .edit_link_area
+{
+    display: block;
+}
+.edit_link_area ul
+{
+    margin: 0;
+    padding: 0;
+    width: 72px;
+}
+.edit_link_area ul li
+{
+    width: 30px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.edit_link_area ul li a
+{
+    color: red;
+    padding-right: 3px;
+}
+.edit_panel
+{
+    display: none;
+}
+.tooltip_wrapper
+{
+    width: 250px;
+}
